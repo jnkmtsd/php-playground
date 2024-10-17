@@ -1,5 +1,9 @@
 # php-playground
 
 ```
-docker compose run --rm php php -v
+docker compose run --rm php bash
+```
+
+```
+./vendor/bin/phpunit tests
 ```
