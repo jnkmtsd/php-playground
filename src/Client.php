@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Pp;
 
+use GuzzleHttp\ClientInterface;
+
 class Client
 {
-    private RetryableClient $client;
+    private ClientInterface $client;
 
-    public function __construct(RetryableClient $client)
+    public function __construct(ClientInterface $client)
     {
         $this->client = $client;
     }
