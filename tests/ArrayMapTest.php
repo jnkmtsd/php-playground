@@ -4,13 +4,7 @@ declare(strict_types=1);
 
 namespace Pp\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\ClientException;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use Pp\RetryableClient;
 
 class ArrayMapTest extends TestCase
 {
